@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynet.WebAPI", "Skynet.WebAPI\Skynet.WebAPI.csproj", "{86320BAB-7E84-4BD7-ACBB-B4C88EA00ACB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynet.Domain", "Skynet.Domain\Skynet.Domain.csproj", "{F9F5DD18-075A-4421-AA7B-D83E0B14564D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynet.Domain.Application", "Skynet.Domain.Application\Skynet.Domain.Application.csproj", "{4CBDD1A4-7DF3-40FF-A7D8-226D299C3E4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynet.Infrastructure.Persistence", "Skynet.Infrastructure.Persistence\Skynet.Infrastructure.Persistence.csproj", "{6349BA0C-161C-4DBE-81FE-CCE8F3B0B919}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynet.Domain.CrossModels", "Skynet.Domain.CrossModels\Skynet.Domain.CrossModels.csproj", "{94B2680B-0D9D-424C-A673-6B96CEDE9D6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynet.Web", "Skynet.Web\Skynet.Web.csproj", "{B7AD97CE-6396-4C52-9FCF-D478CD6E4060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86320BAB-7E84-4BD7-ACBB-B4C88EA00ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86320BAB-7E84-4BD7-ACBB-B4C88EA00ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86320BAB-7E84-4BD7-ACBB-B4C88EA00ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86320BAB-7E84-4BD7-ACBB-B4C88EA00ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F5DD18-075A-4421-AA7B-D83E0B14564D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F5DD18-075A-4421-AA7B-D83E0B14564D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F5DD18-075A-4421-AA7B-D83E0B14564D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F5DD18-075A-4421-AA7B-D83E0B14564D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBDD1A4-7DF3-40FF-A7D8-226D299C3E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBDD1A4-7DF3-40FF-A7D8-226D299C3E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBDD1A4-7DF3-40FF-A7D8-226D299C3E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBDD1A4-7DF3-40FF-A7D8-226D299C3E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6349BA0C-161C-4DBE-81FE-CCE8F3B0B919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6349BA0C-161C-4DBE-81FE-CCE8F3B0B919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6349BA0C-161C-4DBE-81FE-CCE8F3B0B919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6349BA0C-161C-4DBE-81FE-CCE8F3B0B919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B2680B-0D9D-424C-A673-6B96CEDE9D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B2680B-0D9D-424C-A673-6B96CEDE9D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B2680B-0D9D-424C-A673-6B96CEDE9D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B2680B-0D9D-424C-A673-6B96CEDE9D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AD97CE-6396-4C52-9FCF-D478CD6E4060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AD97CE-6396-4C52-9FCF-D478CD6E4060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AD97CE-6396-4C52-9FCF-D478CD6E4060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AD97CE-6396-4C52-9FCF-D478CD6E4060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B53D47B-65E0-4377-96C4-15BBF4AC1F01}
+	EndGlobalSection
+EndGlobal

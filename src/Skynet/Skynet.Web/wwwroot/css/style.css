@@ -1,0 +1,120 @@
+html, body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+ul li { cursor: pointer; }
+
+.jumbotron { 
+    margin-top: 30px;
+}
+
+address { 
+    margin-top: 30px;
+    background-color: #e9ecef; 
+    padding: 15px;
+    border-radius: .3rem;
+}
+address p {
+    margin-bottom: 0px;
+}
+
+/* Broadcast section */
+
+#broadcast-container {
+    color: #fff; 
+}
+
+#broadcast-container span#date {
+    position: absolute;
+    z-index: 999;
+    top: 20px;
+    left: 40px;
+}
+
+#broadcast-container span#id {
+    position: absolute;
+    z-index: 999;
+    top: 40px;
+    left: 40px;
+}
+
+#broadcast-container span#target {
+    position: absolute;
+    z-index: 999;
+    top: 60px;
+    left: 40px;
+}
+
+#broadcast-container span#scan {
+    position: absolute;
+    z-index: 999;
+    top: 80px;
+    left: 40px;
+}
+
+
+#broadcast-container span#search {
+    position: absolute;
+    z-index: 999;
+    bottom: 20px;
+    left: 40px;
+    font-size: 50px;
+}
+
+#broadcast-container p#loading {
+    color: #000;
+}
+#broadcast-container p#empty {
+    color: #000;
+}
+
+#broadcast-container #broadcast {
+    -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+/* https://codepen.io/LloydJames/pen/vpRoXg */
+
+#broadcast-container span.letter1 {
+	-webkit-animation: letterone 1s infinite;
+  animation: letterone 1s infinite;
+}
+#broadcast-container span.letter2 {
+	-webkit-animation: lettertwo 1s infinite;
+  animation: lettertwo 1s infinite;
+}
+#broadcast-container span.letter3 {
+	-webkit-animation: letterthree 1s infinite;
+  animation: letterthree 1s infinite;
+}
+#broadcast-container span.letter4 {
+	-webkit-animation: letterfour 1s infinite;
+  animation: letterfour 1s infinite;
+}
+#broadcast-container span.letter5 {
+	-webkit-animation: letterfive 1s infinite;
+  animation: letterfive 1s infinite;
+}
+#broadcast-container span.letter6 {
+  -webkit-animation: lettersix 0.75s infinite;
+  animation: lettersix 0.75s infinite;
+}
+
+@-webkit-keyframes letterone {80% {opacity: 0;}}
+@keyframes letterone {80% {opacity: 0;}}
+
+@-webkit-keyframes lettertwo {85% {opacity: 0;}}
+@keyframes lettertwo {85% {opacity: 0;}}
+
+@-webkit-keyframes letterthree {90% {opacity: 0;}}
+@keyframes letterthree {90% {opacity: 0;}}
+
+@-webkit-keyframes letterfour {95% {opacity: 0;}}
+@keyframes letterfour {95% {opacity: 0;}}
+
+@-webkit-keyframes letterfive {100% {opacity: 0;}}
+@keyframes letterfive {100% {opacity: 0;}}
+
+@-webkit-keyframes lettersix {100% {opacity: 0;}}
+@keyframes lettersix {100% {opacity: 0;}}
+
