@@ -1,5 +1,7 @@
 ![](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/images/web.PNG)
 
+[Download](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/files/presentation.pptx) PPT from presentation.
+
 # Infrastructure
 
 To test this application you need deploy the following resources on Microsoft Azure:
