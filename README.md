@@ -1,45 +1,38 @@
 ![](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/images/web.PNG)
 
-# Azure Infrastructure
+# Infrastructure
 
 To test this application you need deploy the following resources on Microsoft Azure:
 
-### Step 1: Implement Azure SQL Database
+- Azure SQL
+- Azure Storage
+- App Service
 
-Pending...
-
-### Step 2: Implement Azure Storage
-
-Pending...
-
-### Step 3: Implement Web API App Service
-
-Pending...v
-
-### Step 4: Implement Web App Service
-
-Pending...
+You can help with the [ARM template](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/arm-template/arm-template.zip)
 
 # Skynet
 [Skynet](https://github.com/sergiobarriel/events/tree/master/azure-storage-15-nov-2018/src/Skynet) solution contains projects:
-- [Web API](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet/Skynet.WebAPI): Exposes methods to insert captures from Raspberry PI 3.
-- [Web](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet/Skynet.Web): VUE.js SPA to consume the API.
+- [Skynet.WebAPI](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet/Skynet.WebAPI): Exposes methods to insert captures from Raspberry PI 3.
+- [Skynet.Web](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet/Skynet.Web): VUE.js SPA to consume the API.
 
 
-### Step 1: Publish Web API 
+### Skynet.WebAPI 
 
 Open Package Manager Console an set default project to Skynet.Infrastructure.Persistence. Then type the following command to update database:
 
 `PM> update-database`
 
-(Make sure you have a SQL Server database available and have established the connection string in the appsettings.json file)
+(Make sure you have set a valid connection strings for Azure Storage and Azure SQL Server in the appsettings.json file)
 
-Pending...
-Include capture...
+You can run the application on your local machine or publish on Azure App Service (this demo was configured to run on App Service accesible on http://skynet-ciber.azurewebsites.net)
 
-### Step 2: Publish Web
+![](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/images/swagger.PNG)
 
-Pending...
+### Skynet.Web
+
+To run SPA you only needs open `index.html` file on your local machine.
+
+(This demo was configured to run on App Service accesible on http://skynet-ciber-spa.azurewebsites.net)
 
 #Raspberry PI 3
 
@@ -71,13 +64,15 @@ Type de following comand on solution folder:
 
 Copy files from `SkynetPI.Eye\bin\Debug\netcoreapp2.0\linux-arm\publish` folder to Raspberry PI 3 file system (with SSH or WinSCP)
 
+_Ensure that appsettings.json contains correct connection string of Skynet.WebAPI endpoint_
+
 ### Step 2: Run application
 
 Type de following comand on Raspberry PI 3 with SSH:
 
 `dotnet SkynetPI.Eye.dll -r 8d225a2f-2bed-45a6-ae73-b756e1528948`
 
-_Note that `-r` paramenter is de robot identifier defined on Web API project_
+_Note that `-r` paramenter is de robot identifier defined on Skynet.WebAPI project_
 
 ##SkynetPI.Target
 [SkynetPI.Target](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetPI/SkynetPI.Target) solution contains contains the code that must be deploy on Raspberry PI 3 and it using **Azure Storage SDK** to read last messages.
@@ -89,6 +84,8 @@ Type de following comand on solution folder:
 `> dotnet publish -r linux-arm`
 
 Copy files from `SkynetPI.Target\bin\Debug\netcoreapp2.0\linux-arm\publish` folder to Raspberry PI 3 file system (with SSH or WinSCP)
+
+_Ensure that appsettings.json contains correct connection string of Skynet.WebAPI endpoint_
 
 ### Step 2: Run application
 
