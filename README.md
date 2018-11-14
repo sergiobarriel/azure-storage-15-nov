@@ -8,7 +8,7 @@ To test this application you need deploy the following resources on Microsoft Az
 - Azure Storage
 - App Service
 
-You can help with the [ARM template](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/arm-template/arm-template.zip)
+You can help with the [ARM template](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/files/arm-template.zip)
 
 # Skynet
 [Skynet](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet) solution contains projects:
