@@ -11,7 +11,7 @@ To test this application you need deploy the following resources on Microsoft Az
 You can help with the [ARM template](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/arm-template/arm-template.zip)
 
 # Skynet
-[Skynet](https://github.com/sergiobarriel/events/tree/master/azure-storage-15-nov-2018/src/Skynet) solution contains projects:
+[Skynet](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet) solution contains projects:
 - [Skynet.WebAPI](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet/Skynet.WebAPI): Exposes methods to insert captures from Raspberry PI 3.
 - [Skynet.Web](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet/Skynet.Web): VUE.js SPA to consume the API.
 
