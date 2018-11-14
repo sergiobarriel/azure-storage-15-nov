@@ -45,15 +45,18 @@ For test this application you need:
 On your Raspberry PI 3 terminal type de following comands: 
 
 `> sudo apt-get install curl libunwind8 gettext`
+
 `> curl -sSL -o dotnet.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Runtime/master/dotnet-runtime-latest-linux-arm.tar.gz`
+
 `> sudo mkdir -p /opt/dotnet && sudo tar zxf dotnet.tar.gz -C `
+
 `> sudo ln -s /opt/dotnet/dotnet /usr/local/bin`
 
 `> dotnet --help.`
 
 If you have any doubt, read this [article](https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/) from MSDN
 
-##SkynetPI.Eye
+## SkynetPI.Eye
 [SkynetEye](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetPI/SkynetPI.Eye) solution contains contains the code that must be deploy on Raspberry PI 3
 
 ### Step 1: Publish application
