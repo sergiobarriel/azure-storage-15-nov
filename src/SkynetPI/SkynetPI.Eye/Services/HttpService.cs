@@ -3,9 +3,8 @@ using System.Net.Http.Headers;
 using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using SkynetEye.DTO;
 
-namespace SkynetEye.Services
+namespace SkynetPI.Eye.Services
 {
     public static class HttpService
     {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkynetEye", "SkynetEye\SkynetEye.csproj", "{A5038B24-36E9-4029-BC9C-B8A17623F818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkynetPI.Eye", "SkynetPI.Eye\SkynetPI.Eye.csproj", "{A5038B24-36E9-4029-BC9C-B8A17623F818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkynetTargetQueue", "SkynetTargetQueue\SkynetTargetQueue.csproj", "{06EFC33D-F21A-4880-B449-04F9BB6518C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkynetPI.Target", "SkynetPI.Target\SkynetPI.Target.csproj", "{06EFC33D-F21A-4880-B449-04F9BB6518C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

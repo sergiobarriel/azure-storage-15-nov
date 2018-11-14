@@ -68,7 +68,7 @@ If you have any doubt, read this [article](https://blogs.msdn.microsoft.com/davi
 
 Pending...
 
-# SkynetTarget
+# SkynetPI
 [SkynetTarget](https://github.com/sergiobarriel/events/tree/master/azure-storage-15-nov-2018/src/SkynetTarget) solution contains contains JAVA code that using Azure Storage SDK to publish messages on Azure Storage Queue
 
 ### Step 1: Build application 

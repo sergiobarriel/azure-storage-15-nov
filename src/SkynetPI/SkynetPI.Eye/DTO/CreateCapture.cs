@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkynetEye.DTO
+namespace SkynetPI.Eye.DTO
 {
     public class CreateCapture
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkynetTargetQueue
+namespace SkynetPI.Target
 {
     public static class Helper
     {   

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkynetEye
+namespace SkynetPI.Eye
 {
     public static class Helper
     {   

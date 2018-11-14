@@ -1,7 +1,7 @@
 ﻿using System;
 using CommandLine;
 
-namespace SkynetEye
+namespace SkynetPI.Eye
 {
     public class Options
     {

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using CommandLine;
 using Microsoft.Extensions.Configuration;
-using SkynetEye.Services;
+using SkynetPI.Eye.Services;
 
-namespace SkynetEye
+namespace SkynetPI.Eye
 {
     public class Program
     {

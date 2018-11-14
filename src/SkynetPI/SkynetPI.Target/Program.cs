@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using Microsoft.Extensions.Configuration;
-using SkynetTargetQueue.Services;
+using SkynetPI.Target.Services;
 
-namespace SkynetTargetQueue
+namespace SkynetPI.Target
 {
     public class Program
     {

@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using Microsoft.Extensions.Configuration;
 
-namespace SkynetTargetQueue.Services
+namespace SkynetPI.Target.Services
 {
     public class TargetService
     {

@@ -2,7 +2,7 @@
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Queue;
 
-namespace SkynetTargetQueue.Services
+namespace SkynetPI.Target.Services
 {
     public class QueueService
     {

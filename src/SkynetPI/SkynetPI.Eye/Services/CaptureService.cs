@@ -1,10 +1,10 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
-using SkynetEye.DTO;
+using SkynetPI.Eye.DTO;
 using Unosquare.RaspberryIO;
 
-namespace SkynetEye.Services
+namespace SkynetPI.Eye.Services
 {
     public class CaptureService
     {
