@@ -77,7 +77,7 @@ Type de following comand on Raspberry PI 3 with SSH:
 
 _Note that `-r` paramenter is de robot identifier defined on Skynet.WebAPI project_
 
-##SkynetPI.Target
+## SkynetPI.Target
 [SkynetPI.Target](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetPI/SkynetPI.Target) solution contains contains the code that must be deploy on Raspberry PI 3 and it using **Azure Storage SDK** to read last messages.
 
 ### Step 1: Publish application
@@ -98,7 +98,7 @@ Type de following comand on Raspberry PI 3 with SSH:
 
 
 # SkynetTarget
-[SkynetTarget](https://github.com/sergiobarriel/events/tree/master/azure-storage-15-nov-2018/src/SkynetTarget) solution contains contains JAVA code that using **Azure Storage SDK** to insert messages on Azure Storage Queue.
+[SkynetTarget](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetTarget) solution contains contains JAVA code that using **Azure Storage SDK** to insert messages on Azure Storage Queue.
 
 To run JAVA application type command on output directory:
 
