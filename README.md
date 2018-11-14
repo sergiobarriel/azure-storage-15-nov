@@ -1,6 +1,8 @@
-![](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/images/web_big.PNG)
+# Azure Storage
 
 [Download](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/files/presentation.pptx) PPT from presentation.
+
+![](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/images/web_big.PNG)
 
 # Infrastructure
 
