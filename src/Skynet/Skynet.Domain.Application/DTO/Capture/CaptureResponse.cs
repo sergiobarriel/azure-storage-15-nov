@@ -8,5 +8,6 @@ namespace Skynet.Domain.Application.DTO.Capture
         public Guid RobotId { get; set; }
         public string Path { get; set; }
         public DateTime Created { get; set; }
+        public int Total { get; set; }
     }
 }

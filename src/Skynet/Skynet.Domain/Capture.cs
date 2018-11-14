@@ -14,7 +14,6 @@ namespace Skynet.Domain
             RobotId = robotId;
         }
 
-        public string Name { get; set; }
         public string Path { get; set; }
         public string BlobId { get; set; }
 

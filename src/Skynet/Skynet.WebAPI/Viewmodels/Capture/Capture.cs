@@ -19,5 +19,8 @@ namespace Skynet.WebAPI.Viewmodels.Capture
 
         [JsonProperty("created")]
         public string Created { get; set; }
+
+        [JsonProperty("total")]
+        public string Total { get; set; }
     }
 }

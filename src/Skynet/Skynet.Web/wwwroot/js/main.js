@@ -55,7 +55,10 @@
                 .then(response => {
                     
                     if(response.status == 200) {
-                        this.capture = response.data;
+                        if(this.capture.id != response.data.id) { 
+                            this.capture = response.data;
+                            this.robots.filter((x) => x.id == robotId)[0].captures = response.data.total;
+                        }
                         this.parameters.empty = false;
                     }
                     else {

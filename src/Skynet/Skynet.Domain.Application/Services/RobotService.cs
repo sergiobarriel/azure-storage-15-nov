@@ -43,6 +43,8 @@ namespace Skynet.Domain.Application.Services
         /// <returns></returns>
         public async Task<CaptureResponse> GetLastRobotCaptureAsync(Guid robotId)
         {
+            var total = await _context.Captures.CountAsync(x => x.RobotId == robotId);
+
             return await _context.Captures
                 .Where(x => x.RobotId == robotId)
                 .OrderByDescending(x => x.Created)
@@ -51,7 +53,8 @@ namespace Skynet.Domain.Application.Services
                     Id = x.Id,
                     RobotId = x.RobotId,
                     Path = x.Path,
-                    Created = x.Created
+                    Created = x.Created,
+                    Total = total,
                 }).FirstOrDefaultAsync();
         }
     }

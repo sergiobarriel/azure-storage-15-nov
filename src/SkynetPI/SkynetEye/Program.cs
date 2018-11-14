@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using CommandLine;
 using Microsoft.Extensions.Configuration;
 using SkynetEye.Services;
@@ -31,17 +32,17 @@ namespace SkynetEye
 
             _configuration = builder.Build();
 
-            Start();
+            Start().Wait();
         }
 
         /// <summary>
         /// Loop: start tasks
         /// </summary>
-        private static void Start()
+        private static async Task Start()
         {
             Helper.Message("Starting...\r\n");
 
-            CaptureService.StartLoop(_options, _configuration);
+            await CaptureService.StartLoop(_options, _configuration);
 
             Console.ReadKey();
         }
