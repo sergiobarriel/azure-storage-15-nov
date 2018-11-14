@@ -1,6 +1,8 @@
+![](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/images/web.PNG)
+
 # Azure Infrastructure
 
-Include capture...
+To test this application you need deploy the following resources on Microsoft Azure:
 
 ### Step 1: Implement Azure SQL Database
 
