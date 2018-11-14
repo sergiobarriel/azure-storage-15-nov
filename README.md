@@ -36,13 +36,13 @@ To run SPA you only needs open `index.html` file on your local machine.
 
 (This demo was configured to run on App Service accesible on http://skynet-ciber-spa.azurewebsites.net)
 
-#Raspberry PI 3
+# Raspberry PI 3
 
 For test this application you need:
 - Buy [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
 - Buy [Camera module V2](https://www.raspberrypi.org/products/camera-module-v2/)
 
-## Step 1: Install NET Core SDK
+## Install NET Core SDK
 
 On your Raspberry PI 3 terminal type de following comands: 
 
