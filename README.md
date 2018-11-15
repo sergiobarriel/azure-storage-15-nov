@@ -10,9 +10,9 @@ To test this application you need deploy the following resources on Microsoft Az
 
 - Azure SQL
 - Azure Storage
-- App Service
+- App Service (for Web and Web API)
 
-You can help yoursef with the [ARM template](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/files/arm-template.zip)
+You can help yoursef with this [ARM template](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/files/arm-template.zip).
 
 # Skynet
 [Skynet](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/Skynet) solution contains projects:
