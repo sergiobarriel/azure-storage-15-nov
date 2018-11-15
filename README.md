@@ -32,11 +32,15 @@ You can run the application on your local machine or publish on Azure App Servic
 
 ![](https://github.com/sergiobarriel/azure-storage-15-nov/blob/master/images/swagger.PNG)
 
+To publish on Azure App Service you can read [MSDN documentation](https://docs.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2017)
+
 ### Skynet.Web
 
 To run SPA you only needs open `index.html` file on your local machine.
 
 (This demo was configured to run on App Service accesible on http://skynet-ciber-spa.azurewebsites.net)
+
+To publish on Azure App Service you can read [MSDN documentation](https://docs.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2017)
 
 # Raspberry PI 3
 
