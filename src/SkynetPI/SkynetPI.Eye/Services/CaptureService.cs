@@ -21,7 +21,7 @@ namespace SkynetPI.Eye.Services
 
                 var capture = new CreateCapture(options.Robot, pictureBytes);
 
-                await httpClient.PostAsync(configuration["WebAPI:Capture:Endpoint"], HttpService.SerializeContent(capture));
+                httpClient.PostAsync(configuration["WebAPI:Capture:Endpoint"], HttpService.SerializeContent(capture));
             }
         }
     }
