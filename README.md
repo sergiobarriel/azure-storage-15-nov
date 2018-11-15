@@ -65,7 +65,7 @@ On your Raspberry PI 3 terminal type de following comands:
 If you have any doubt, read this [article](https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/) from MSDN
 
 ## SkynetPI.Eye
-[SkynetEye](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetPI/SkynetPI.Eye) solution contains contains the code that must be deploy on Raspberry PI 3
+:camera: [SkynetEye](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetPI/SkynetPI.Eye) solution contains contains the code that must be deploy on Raspberry PI 3
 
 ### Step 1: Publish application
 
@@ -86,7 +86,7 @@ Type de following comand on Raspberry PI 3 with SSH:
 _Note that `-r` paramenter is de robot identifier defined on Skynet.WebAPI project_
 
 ## SkynetPI.Target
-[SkynetPI.Target](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetPI/SkynetPI.Target) solution contains contains the code that must be deploy on Raspberry PI 3 and it using **Azure Storage SDK** to read last messages.
+:email: [SkynetPI.Target](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetPI/SkynetPI.Target) solution contains contains the code that must be deploy on Raspberry PI 3 and it using **Azure Storage SDK** to read last messages.
 
 ### Step 1: Publish application
 
@@ -106,7 +106,7 @@ Type de following comand on Raspberry PI 3 with SSH:
 
 
 # SkynetTarget
-[SkynetTarget](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetTarget) solution contains contains JAVA code that using **Azure Storage SDK** to insert messages on Azure Storage Queue.
+:gun: [SkynetTarget](https://github.com/sergiobarriel/azure-storage-15-nov/tree/master/src/SkynetTarget) solution contains contains JAVA code that using **Azure Storage SDK** to insert messages on Azure Storage Queue.
 
 To run JAVA application type command on output directory:
 
