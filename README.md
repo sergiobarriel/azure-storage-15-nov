@@ -113,3 +113,6 @@ To run JAVA application type command on output directory:
 `> java SkynetTarget`
 
 _Now you can type military target names... be careful_
+
+# Contact
+You can contact me via Twitter [@sergiobarriel](https://twitter.com/sergiobarriel)
